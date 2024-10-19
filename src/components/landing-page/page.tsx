@@ -128,7 +128,7 @@ export default function LandingPage() {
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Upcoming Events</h2>
             <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-              Don't miss out on our next networking opportunities
+              Don&apos;t miss out on our next networking opportunities
             </p>
           </div>
           <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -223,7 +223,7 @@ export default function LandingPage() {
             <span className="block">Ready to elevate your network?</span>
             <span className="block">Join Mingle Eat Talk today.</span>
           </h2>
-          <div className="mt-8 flex lg:mt-0  lg:flex-shrink-0">
+          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <Button className="bg-white text-gold hover:bg-gray-50">
                 Get Started
