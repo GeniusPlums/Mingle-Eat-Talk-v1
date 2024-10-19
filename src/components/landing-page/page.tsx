@@ -188,9 +188,9 @@ export default function LandingPage() {
           </div>
           <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { name: "John Doe", role: "CEO, TechCorp", quote: "Mingle Eat Talk has been an incredible platform for meeting like-minded professionals. The connections I've made here have been invaluable to my career." },
-              { name: "Jane Smith", role: "Founder, StartUp Inc.", quote: "The quality of conversations and networking opportunities at Mingle Eat Talk events is unparalleled. It's become an essential part of my professional growth strategy." },
-              { name: "Alex Johnson", role: "Marketing Director, Brand Co.", quote: "I've attended numerous networking events, but Mingle Eat Talk stands out for its curated guest list and engaging atmosphere. Highly recommended!" }
+              { name: "John Doe", role: "CEO, TechCorp", quote: "Mingle Eat Talk has been an incredible platform for meeting like-minded professionals. The connections I&apos;ve made here have been invaluable to my career." },
+              { name: "Jane Smith", role: "Founder, StartUp Inc.", quote: "The quality of conversations and networking opportunities at Mingle Eat Talk events is unparalleled. It&apos;s become an essential part of my professional growth strategy." },
+              { name: "Alex Johnson", role: "Marketing Director, Brand Co.", quote: "I&apos;ve attended numerous networking events, but Mingle Eat Talk stands out for its curated guest list and engaging atmosphere. Highly recommended!" }
             ].map((testimonial, index) => (
               <Card key={index}>
                 <CardContent className="pt-8">
